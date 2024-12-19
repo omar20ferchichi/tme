@@ -1,25 +1,18 @@
-[build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "tme"
 version = "0.0.1"
 authors = [
-  { name = "Omar Ferchichi", email = "ferchichiomar20@gmail.com" }
+  { name="Omar Ferchichi", email="ferchichiomar20@gmail.com" },
 ]
-description = "A short description of the TME project"
+description = "A small example package"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.6"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent"
+    "Operating System :: OS Independent",
 ]
 
 [project.urls]
 Homepage = "https://github.com/omar20ferchichi/tme"
 Issues = "https://github.com/omar20ferchichi/tme/issues"
-
-[tool.setuptools.packages.find]
-where = ["src"]
