@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-"""Tests for `tme` package."""
+"""Tests for `tme_project_omar` package."""
 
 import pytest
 
 
-from tme import tme
+from tme_project_omar import tme_project_omar
 
 
 @pytest.fixture

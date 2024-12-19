@@ -1,4 +1,4 @@
-"""Top-level package for tmexample."""
+"""Top-level package for tme_project_omarxample."""
 
 __author__ = """Omar Ferchichi"""
 __email__ = 'ferchichiomar20@gmail.com'

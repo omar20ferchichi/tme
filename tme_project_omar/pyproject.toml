@@ -1,5 +1,5 @@
 [project]
-name = "tme"
+name = "tme_project_omar_project_omar"
 version = "0.1.0"
 authors = [
     { name = "Omar Ferchichi", email = "ferchichiomar20@gmail.com" }
@@ -13,6 +13,9 @@ classifiers = [
     "Operating System :: OS Independent"
 ]
 
+# Do not include `license` in dynamic
+license = { text = "MIT" }
+
 [project.urls]
-Homepage = "https://github.com/omar20ferchichi/tme"
-Issues = "https://github.com/omar20ferchichi/tme/issues"
+Homepage = "https://github.com/omar20ferchichi/tme_project_omar"
+Issues = "https://github.com/omar20ferchichi/tme_project_omar/issues"

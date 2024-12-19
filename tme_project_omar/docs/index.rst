@@ -1,4 +1,4 @@
-Welcome to tmexample's documentation!
+Welcome to tme_project_omarxample's documentation!
 ======================================
 
 .. toctree::

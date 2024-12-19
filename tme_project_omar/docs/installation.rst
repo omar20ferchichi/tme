@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install tmexample, run this command in your terminal:
+To install tme_project_omarxample, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install tme
+    $ pip install tme_project_omar
 
-This is the preferred method to install tmexample, as it will always install the most recent stable release.
+This is the preferred method to install tme_project_omarxample, as it will always install the most recent stable release.
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,19 +26,19 @@ you through the process.
 From sources
 ------------
 
-The sources for tmexample can be downloaded from the `Github repo`_.
+The sources for tme_project_omarxample can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/omar20ferchichi/tme
+    $ git clone git://github.com/omar20ferchichi/tme_project_omar
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/omar20ferchichi/tme/tarball/master
+    $ curl -OJL https://github.com/omar20ferchichi/tme_project_omar/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/omar20ferchichi/tme
-.. _tarball: https://github.com/omar20ferchichi/tme/tarball/master
+.. _Github repo: https://github.com/omar20ferchichi/tme_project_omar
+.. _tarball: https://github.com/omar20ferchichi/tme_project_omar/tarball/master

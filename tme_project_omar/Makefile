@@ -49,7 +49,7 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr .pytest_cache
 
 lint/flake8: ## check style with flake8
-	flake8 tme tests
+	flake8 tme_project_omar tests
 
 
 lint: lint/flake8 ## check style
@@ -61,15 +61,15 @@ test-all: ## run tests on every Python version with tox
 	tox
 
 coverage: ## check code coverage quickly with the default Python
-	coverage run --source tme -m pytest
+	coverage run --source tme_project_omar -m pytest
 	coverage report -m
 	coverage html
 	$(BROWSER) htmlcov/index.html
 
 docs: ## generate Sphinx HTML documentation, including API docs
-	rm -f docs/tme.rst
+	rm -f docs/tme_project_omar.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ tme
+	sphinx-apidoc -o docs/ tme_project_omar
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	$(BROWSER) docs/_build/html/index.html

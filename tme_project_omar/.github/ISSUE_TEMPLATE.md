@@ -1,4 +1,4 @@
-* tmexample version:
+* tme_project_omarxample version:
 * Python version:
 * Operating System:
 
