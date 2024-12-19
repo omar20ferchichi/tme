@@ -12,7 +12,6 @@ dependencies = [
     "setuptools>=61.0",
     # Add any other dependencies your project requires here
 ]
-python_requires = ">=3.6"
 
 [tool.setuptools.packages.find]
 where = ["src"]
