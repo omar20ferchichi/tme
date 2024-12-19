@@ -1,10 +1,10 @@
-# Your Package Name
+# TME Project
 
-A brief description of your package.
+This is a description of the TME project.
 
 ## Installation
 
-Install the package using pip:
+You can install the package using:
 
 ```bash
-pip install your-package-name
+pip install tme

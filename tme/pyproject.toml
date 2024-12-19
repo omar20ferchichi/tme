@@ -1,16 +1,16 @@
 [project]
 name = "tme"
-version = "0.0.1"
+version = "0.1.0"
 authors = [
-  { name="Omar Ferchichi", email="ferchichiomar20@gmail.com" },
+    { name = "Omar Ferchichi", email = "ferchichiomar20@gmail.com" }
 ]
-description = "A small example package"
+description = "Your project description"
 readme = "README.md"
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
+    "Operating System :: OS Independent"
 ]
 
 [project.urls]
