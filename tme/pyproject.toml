@@ -4,14 +4,22 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tme"
-version = "0.1.0"
-description = "A short description of your TME project"
-authors = [{ name = "Omar Ferchichi", email = "ferchichiomar20@gmail.com" }]
-license = { text = "MIT" }
-dependencies = [
-    "setuptools>=61.0",
-    # Add any other dependencies your project requires here
+version = "0.0.1"
+authors = [
+  { name = "Omar Ferchichi", email = "ferchichiomar20@gmail.com" }
 ]
+description = "A short description of the TME project"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/omar20ferchichi/tme"
+Issues = "https://github.com/omar20ferchichi/tme/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
